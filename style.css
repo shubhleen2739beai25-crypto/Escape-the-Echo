@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle at center, #0f172a, #020617);
+  color: white;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-align: center;
+}
+
+.game-container {
+  padding-top: 20px;
+}
+
+.logo {
+  width: 320px;
+  margin-bottom: 10px;
+}
+
+.ui {
+  margin-bottom: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 18px;
+}
+
+canvas {
+  background: #1e293b;
+  border: 3px solid #6366f1;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #6366f1;
+}
